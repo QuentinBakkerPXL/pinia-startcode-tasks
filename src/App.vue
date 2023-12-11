@@ -2,11 +2,13 @@
   import TaskComponent from '@/components/TaskComponent.vue'
   import TaskFormComponent from '@/components/TaskFormComponent.vue'
   import HeaderComponent from '@/components/HeaderComponent.vue'
+  import useExampleStore from '@/stores/voorbeeld'
 
   export default {
     data() {
       return {
-        tasks: [],
+        // tasks: [],
+        store: useExampleStore()
       }
     },
 
